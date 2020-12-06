@@ -22,5 +22,7 @@ gulp dev
 > blocks
 > > block-name
 > > > _block-name.less
+
 > > > _block-name.html
+
 > > > block-name.js
