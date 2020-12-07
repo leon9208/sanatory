@@ -17,12 +17,40 @@ gulp dev
 
 ### Структура файлов
 
-Структура состоит из блоков, чтобы создать новый блок, достаточно в папке blocks создать папку с названием блока:
+Структура проекта:
 
-> blocks
-> > block-name
-> > > _block-name.less
+<pre>
+src/
+|--/blocks/
+|----/block-name/
+|------/icons/
+|------/img/
+|------/_block-name.html
+|------/_block-name.less
+|------/block-name.js
 
-> > > _block-name.html
+|--/libsJS/
+|----/*.js
 
-> > > block-name.js
+|--/pages/
+|----/*.html
+
+|--/styles/
+|----/global/
+|------/_base.less
+|------/_form.less
+|------/_typo.less
+|----/libs/
+|------/_libs-rewrite.less
+|------/_libs.less
+|------/other-libs.css
+|----/vars/
+|------/_vars.less
+|----/style.less
+
+|--/partials/
+|----/_head.html
+|----/_scripts.html
+
+
+</pre>

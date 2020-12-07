@@ -24,7 +24,7 @@ var paths = {
     blocks: './src/blocks/',
     src: './src/pages/*.html',
     dest: './build',
-    watch: ['./src/pages/*.html', './src/templates/*.html', './src/blocks/**/*.html']
+    watch: ['./src/pages/*.html', './src/partials/*.html', './src/blocks/**/*.html']
   },
   css: {
     libsCSS: [

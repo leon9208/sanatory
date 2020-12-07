@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="ru">
-	@@include('../templates/_head.html' , {contents:'Главная'})
+	@@include('../partials/_head.html' , {contents:'Главная'})
 	<body>
 		<!-- Header -->
 		@@include('../blocks/header/_header.html')
 		<!-- End header -->
+		
 		<!-- main  -->
 		<main class="main">
 			<!-- hero  -->
@@ -13,7 +12,10 @@
 			
 		</main>
 		<!-- End main  -->
+
+		<!-- footer  -->
+		@@include('../blocks/footer/_footer.html')
+		<!-- End footer  -->
 		
-		@@include('../templates/_scripts.html')
-	</body>
-</html>
+		<!-- scripts -->
+		@@include('../partials/_scripts.html')
