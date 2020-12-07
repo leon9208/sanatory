@@ -51,6 +51,18 @@ src/
 |--/partials/
 |----/_head.html
 |----/_scripts.html
+</pre>
 
+Чтобы создать новый блок, достаточно создать в папке __blocks__ папку с названием блока, после чего внутри автоматически создаются файлы (__html/less/js__) и папки (__icons/img__)
+-------
+### Подключение HTML блоков
 
+<pre>
+  @@include('../blocks/block-name/_block-name.html')
+</pre>
+
+### Подключение LESS блоков
+
+<pre>
+  @import '../blocks/block-name/_block-name';
 </pre>
